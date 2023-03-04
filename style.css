@@ -440,7 +440,7 @@ section {
     .container main {
         display: flex;
         flex-direction: column;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
 
     .container .my-name h2 {
