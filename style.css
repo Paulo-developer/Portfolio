@@ -89,6 +89,7 @@ header button {
     border: none;
     color: aliceblue;
     border-radius: 5px;
+    cursor: pointer;
     width: 12vw;
     height: 6.5vh;
     padding: 6px;
@@ -101,7 +102,7 @@ header button:hover {
     font-weight: bolder;
     color: #222222;
     border: 1px solid cyan;
-
+    cursor: pointer;
     border-radius: 5px;
     width: 12vw;
     height: 6.5vh;
@@ -163,6 +164,7 @@ main h2 {
     background: rgb(0, 7, 36);
     background: linear-gradient(130deg, rgba(0, 7, 36, 1) 0%, rgba(0, 247, 255, 1) 0%, rgba(30, 190, 245, 1) 54%, rgba(0, 131, 176, 1) 84%);
     transition-duration: .2s;
+    cursor: pointer;
 }
 
 .my-name button:hover {
