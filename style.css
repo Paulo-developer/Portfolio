@@ -458,7 +458,7 @@ section {
     .container main .my-name .buttons button {
         width: 40vw;
         height: max-content;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .container main .my-name .buttons {
@@ -521,7 +521,7 @@ section {
     }
 
     .bloco-conhecimentos .conhecimentos .fa-brands {
-        font-size: 21vw;
+        font-size: 22vw;
         width: 140px;
     }
 
@@ -529,7 +529,7 @@ section {
         flex-wrap: wrap;
         width: 72vw;
         transition-duration: .9s;
-        font-size: 17.5px;
+        font-size: 21px;
     }
 
     .portfolio button {
@@ -557,7 +557,10 @@ section {
         padding: 0;
         margin-top: 20px;
     }
-
+    .about-project {
+        font-size: 16px;
+        text-align: center;
+    }
     .about-project a {
         font-weight: 400;
         text-decoration: none;
@@ -567,6 +570,5 @@ section {
 
     .container-projetos img {
         width: 70vw;
-        border: 1px solid aliceblue;
     }
 }
