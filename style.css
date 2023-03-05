@@ -415,6 +415,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
+        font-size: 8px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -428,6 +429,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
+        font-size: 8px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -453,8 +455,10 @@ section {
         width: 100%;
     }
 
-    .container main .my-name button {
+    .container main .my-name .buttons button {
         width: 40vw;
+        height: max-content;
+        font-size: 8px;
     }
 
     .container main .my-name .buttons {
@@ -525,6 +529,7 @@ section {
         flex-wrap: wrap;
         width: 72vw;
         transition-duration: .9s;
+        font-size: 17.5px;
     }
 
     .portfolio button {
