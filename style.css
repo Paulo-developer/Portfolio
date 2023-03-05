@@ -251,7 +251,6 @@ main h2 {
 }
 
 .container-conhecimentos {
-    z-index: 5;
     margin-top: 22.4vh;
     color: aliceblue;
     text-align: left;
@@ -263,7 +262,6 @@ main h2 {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    z-index: 1;
 }
 
 .container-conhecimentos span {
@@ -314,7 +312,6 @@ main h2 {
     transition-duration: .55s;
     height: 49vh;
     width: 30vw;
-    z-index: 8;
 }
 
 footer {
