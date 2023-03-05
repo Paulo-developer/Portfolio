@@ -562,5 +562,6 @@ section {
 
     .container-projetos img {
         width: 70vw;
+        border: 1px solid aliceblue;
     }
 }
