@@ -415,7 +415,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 19.5px;
+        font-size: 16.2px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -429,7 +429,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 19.5px;
+        font-size: 16.2px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -442,12 +442,12 @@ section {
     .container main {
         display: flex;
         flex-direction: column;
-        margin-bottom: 8px;
+        margin-bottom: 0px;
     }
 
     .container .my-name h2 {
         line-height: 75px;
-        font-size: 55px;
+        font-size: 65px;
         width: 23vw;
     }
 
@@ -458,7 +458,7 @@ section {
     .container main .my-name .buttons button {
         width: 40vw;
         height: max-content;
-        font-size: 21.5px;
+        font-size: 16.2px;
     }
 
     .container main .my-name .buttons {
@@ -515,13 +515,18 @@ section {
         text-align: center;
     }
     .container-conhecimentos h2 {
-        font-size: 22.5px;
+        font-size: 24.9px;
     }
     .bloco-conhecimentos {
         width: max-content;
         flex-wrap: wrap;
     }
-
+    .bloco-conhecimentos .conhecimentos h3 {
+        font-size: 22.5px;
+    }
+    .bloco-conhecimentos .conhecimentos p {
+        font-size: 17px;
+    }
     .bloco-conhecimentos .conhecimentos .fa-brands {
         font-size: 22vw;
         width: 140px;
@@ -531,7 +536,7 @@ section {
         flex-wrap: wrap;
         width: 72vw;
         transition-duration: .9s;
-        font-size: 21px;
+        font-size: 12px;
     }
 
     .portfolio button {
@@ -560,13 +565,14 @@ section {
         margin-top: 20px;
     }
     .about-project {
-        font-size: 16px;
+        font-size: 16.5px;
         text-align: center;
+        width: 80vw;
     }
     .about-project a {
         font-weight: 400;
         text-decoration: none;
-        color: aliceblue;
+        color: rgba(0, 255, 255, 0.726);
         text-align: center;
     }
 
