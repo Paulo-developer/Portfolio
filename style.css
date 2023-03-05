@@ -415,7 +415,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 8px;
+        font-size: 19.5px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -429,7 +429,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 8px;
+        font-size: 19.5px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -458,7 +458,7 @@ section {
     .container main .my-name .buttons button {
         width: 40vw;
         height: max-content;
-        font-size: 10px;
+        font-size: 21.5px;
     }
 
     .container main .my-name .buttons {
@@ -514,7 +514,9 @@ section {
         width: auto;
         text-align: center;
     }
-
+    .container-conhecimentos h2 {
+        font-size: 22.5px;
+    }
     .bloco-conhecimentos {
         width: max-content;
         flex-wrap: wrap;
