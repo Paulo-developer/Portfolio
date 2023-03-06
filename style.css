@@ -46,7 +46,7 @@ body {
     background-color: #070c1a;
 }
 
-.container header h2 {
+header h2 {
     font-family: 'Signika Negative', sans-serif;
     color: aliceblue;
     font-weight: bolder;
@@ -62,7 +62,7 @@ header {
     position: sticky;
     top: 0;
     backdrop-filter: blur(15px);
-    z-index: 99;
+    z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -277,7 +277,7 @@ main h2 {
 .bloco-conhecimentos .conhecimentos p {
     font-family: 'Segoe UI', Arial;
     font-size: 16.48px;
-    color: #bfbfbf;
+    color: rgba(190, 180, 180, 0.932);
 }
 
 .bloco-conhecimentos .conhecimentos i {
@@ -399,6 +399,8 @@ section {
 }
 .about-project p {
     margin-bottom: 30px;
+    color: rgba(190, 180, 180, 0.932);
+    font-size: 17px;
 }
 .about-project a {
     font-weight: 500;
@@ -412,7 +414,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 16.2px;
+        font-size: 15px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -426,7 +428,7 @@ section {
         font-weight: bolder;
         border: none;
         color: aliceblue;
-        font-size: 16.2px;
+        font-size: 15px;
         border-radius: 5px;
         width: 25vw;
         height: 6.5vh;
@@ -455,7 +457,7 @@ section {
     .container main .my-name .buttons button {
         width: 40vw;
         height: max-content;
-        font-size: 16.2px;
+        font-size: 15;
     }
 
     .container main .my-name .buttons {
@@ -479,7 +481,7 @@ section {
 
     .about-me h3 {
         text-align: left;
-        color: rgba(190, 180, 180, 0.932);
+        color: aliceblue;
         font-weight: 600;
         font-size: 22px;
     }
@@ -495,7 +497,9 @@ section {
         display: flex;
         flex-wrap: wrap;
     }
-
+    .minha-foto h3 {
+        color: white;
+    }
     .about-me p {
         text-align: left;
     }
